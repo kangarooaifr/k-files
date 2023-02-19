@@ -14,6 +14,10 @@ devtools::install_github("kangarooaifr/kfiles")
 
 ## Main functions
 
+#### Create data
+
+-   create_data() - to create a data.frame from colClasses
+
 #### Read files
 
 -   read_data() - to read a .csv file
@@ -21,7 +25,3 @@ devtools::install_github("kangarooaifr/kfiles")
 #### Write files
 
 -   write_data() - to write a .csv file
-
-## Usage & examples
-
-How to use the package with code example ...
