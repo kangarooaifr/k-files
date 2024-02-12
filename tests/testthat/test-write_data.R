@@ -11,7 +11,16 @@ url <- file.path(path, file)
 # -- test
 test_that("returns FALSE when dir not exists & create is FALSE", {
 
-  expect_equal(write_data(data = data, file = url, create = FALSE), FALSE)
-  expect_equal(write_data(data = data, file = file, path = path, create = FALSE), FALSE)
+  # -- function call
+  x <- write_data(data = data, file = url, create = FALSE)
+
+  # -- check
+  expect_equal(x, FALSE)
+
+  # -- function call
+  x <- write_data(data = data, file = file, path = path, create = FALSE)
+
+  # -- check
+  expect_equal(x, FALSE)
 
 })

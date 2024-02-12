@@ -1,6 +1,6 @@
 Package: kfiles
 Title: Implements Simple CSV Read/Write Wrapper Functions
-Version: 0.0.0.9000
+Version: 0.9.1
 Authors@R: 
     person("Philippe", "Peret", , "philippe.peret@hotmail.com", role = c("aut", "cre"))
 Description: The goal of this package is to provide simple wrapper functions around read.csv() and write.csv().

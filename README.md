@@ -10,13 +10,13 @@ The wrappers mainly add basic features as checking if the path or file path exis
 
 ## Installation
 
-devtools::install_github("kangarooaifr/kfiles")
+devtools::install_github("thekangaroofactory/kfiles")
 
 ## Main functions
 
 #### Create data
 
--   create_data() - to create a data.frame from colClasses
+-   create_data() - to create a data.frame from a colClasses vector
 
 #### Read files
 
