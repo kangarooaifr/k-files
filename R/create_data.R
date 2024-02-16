@@ -20,7 +20,7 @@ create_data <- function(colClasses){
 
   # -- test argument
   # adding this test to avoid getting a warning from read.table #1
-  if(is.na(colClasses))
+  if(anyNA(colClasses))
     return(data.frame())
 
   # -- Log message
